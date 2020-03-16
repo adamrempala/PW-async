@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html dir="ltr" xml:lang="pl" class="yui3-js-enabled" lang="pl"><head>
+    <title>Zadanie</title>
+    <link rel="shortcut icon" href="https://moodle.mimuw.edu.pl/theme/image.php?theme=more&amp;component=theme&amp;rev=1569591006&amp;image=favicon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="moodle, Zadanie">
+<link rel="stylesheet" type="text/css" href="Zadanie_pliki/yui_combo.css"><script charset="utf-8" id="yui_3_17_2_1_1584372564221_8" src="Zadanie_pliki/yui_combo_002.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_22" src="Zadanie_pliki/yui_combo_007.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_181" src="Zadanie_pliki/yui_combo_005.js" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1584372564221_183" href="Zadanie_pliki/yui_combo_003.css"><script charset="utf-8" id="yui_3_17_2_1_1584372564221_184" src="Zadanie_pliki/yui_combo.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_225" src="Zadanie_pliki/MathJax.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_227" src="Zadanie_pliki/javascript_006.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_229" src="Zadanie_pliki/yui_combo_008.js" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1584372564221_230" href="Zadanie_pliki/yui_combo_002.css"><script charset="utf-8" id="yui_3_17_2_1_1584372564221_231" src="Zadanie_pliki/yui_combo_003.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_240" src="Zadanie_pliki/yui_combo_006.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_241" src="Zadanie_pliki/yui_combo_010.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_259" src="Zadanie_pliki/javascript_005.js" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1584372564221_260" src="Zadanie_pliki/yui_combo_009.js" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="Zadanie_pliki/styles.css">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.mimuw.edu.pl","sesskey":"7edLBoIszg","themerev":"1569591006","slasharguments":0,"theme":"more","iconsystemmodule":"core\/icon_system_standard","jsrev":"1569591006","admin":"admin","svgicons":true,"usertimezone":"Europa \/ Warszawa","contextid":52317};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.mimuw.edu.pl\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle.mimuw.edu.pl\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.mimuw.edu.pl\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.mimuw.edu.pl\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.mimuw.edu.pl\/theme\/yui_combo.php?m\/1569591006\/","combine":true,"comboBase":"https:\/\/moodle.mimuw.edu.pl\/theme\/yui_combo.php?","ext":false,"root":"m\/1569591006\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.mimuw.edu.pl\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.mimuw.edu.pl\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1569591006\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.mimuw.edu.pl\/lib\/javascript.php?rev=1569591006&jsfile=%2Frepository%2Ffilepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.mimuw.edu.pl\/lib\/javascript.php?rev=1569591006&jsfile=%2Fcomment%2Fcomment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config;executed=true">
+
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)'], ['@i','@i']],
+        processEscapes: true
+    }
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="Zadanie_pliki/requirejs.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="Zadanie_pliki/javascript.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body id="page-mod-assign-view" class="format-topics  path-mod path-mod-assign gecko dir-ltr lang-pl yui-skin-sam yui3-skin-sam moodle-mimuw-edu-pl pagelayout-incourse course-261 context-52317 cmid-20359 category-71 has-region-side-pre docked-region-side-pre has-region-side-post empty-region-side-post jsenabled has_dock has_dock_left_vertical empty-region-side-pre content-only"><div id="MathJax_Message" style="display: none;"></div>
+
+<div class="skiplinks">
+    <a href="#maincontent" class="skip">Przejdź do głównej zawartości</a>
+</div><script type="text/javascript" src="Zadanie_pliki/yui_combo_004.js"></script><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><script type="text/javascript" src="Zadanie_pliki/javascript_003.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<header role="banner" class="navbar navbar-fixed-top navbar-inverse moodle-has-zindex">
+    <nav role="navigation" class="navbar-inner">
+        <div class="container-fluid">
+            <a class="brand" title="Strona główna" href="https://moodle.mimuw.edu.pl/">MIMoodle</a>            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></a>            <div class="usermenu"><div class="moodle-actionmenu nowrap-items" id="action-menu-0" data-enhance="moodle-core-actionmenu" data-enhanced="1">
+
+        <ul class="menubar" id="action-menu-0-menubar" role="menubar">
+
+            <!--
+
+            --><!--
+
+            --><li role="presentation"><a href="#" class=" toggle-display textmenu" id="action-menu-toggle-0" title="Menu użytkownika" role="menuitem" aria-haspopup="true"><span class="userbutton"><span class="usertext mr-1">Adam Rempała</span><span class="avatars"><span class="avatar current"><img src="Zadanie_pliki/image.png" class="userpicture defaultuserpic" role="presentation" aria-hidden="true" width="35" height="35"></span></span></span><b class="caret"></b></a>
+</li>
+
+        </ul>
+
+
+        <ul class="menu  align-tr-br" id="action-menu-0-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-0" role="menu" data-align="tr-br" aria-hidden="true">
+            <li role="presentation">    <a href="https://moodle.mimuw.edu.pl/my/" class="icon menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><img class="icon " alt="" aria-hidden="true" src="Zadanie_pliki/image_011.svg"><span class="menu-action-text" id="actionmenuaction-1">Kokpit</span></a>
+
+
+
+
+
+</li><li role="presentation">
+<span class="filler">&nbsp;</span>
+
+
+
+</li><li role="presentation">    <a href="https://moodle.mimuw.edu.pl/user/profile.php?id=2622" class="icon menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><img class="icon " alt="" aria-hidden="true" src="Zadanie_pliki/image_004.svg"><span class="menu-action-text" id="actionmenuaction-2">Profil</span></a>
+
+
+
+
+
+</li><li role="presentation">    <a href="https://moodle.mimuw.edu.pl/grade/report/overview/index.php" class="icon menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3"><img class="icon " alt="" aria-hidden="true" src="Zadanie_pliki/image_019.svg"><span class="menu-action-text" id="actionmenuaction-3">Stopnie</span></a>
+
+
+
+
+
+</li><li role="presentation">    <a href="https://moodle.mimuw.edu.pl/message/index.php" class="icon menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4"><img class="icon " alt="" aria-hidden="true" src="Zadanie_pliki/image.svg"><span class="menu-action-text" id="actionmenuaction-4">Wiadomości</span></a>
+
+
+
+
+
+</li><li role="presentation">    <a href="https://moodle.mimuw.edu.pl/user/preferences.php" class="icon menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><img class="icon " alt="" aria-hidden="true" src="Zadanie_pliki/image_009.svg"><span class="menu-action-text" id="actionmenuaction-5">Preferencje</span></a>
+
+
+
+
+
+</li><li role="presentation">
+<span class="filler">&nbsp;</span>
+
+
+
+</li><li role="presentation">    <a href="https://moodle.mimuw.edu.pl/login/logout.php?sesskey=7edLBoIszg" class="icon menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><img class="icon " alt="" aria-hidden="true" src="Zadanie_pliki/image_017.svg"><span class="menu-action-text" id="actionmenuaction-6">Wyloguj</span></a>
+
+
+
+
+
+</li>
+        </ul>
+</div></div>            <div class="popover-region collapsed popover-region-messages" id="nav-message-popover-container" data-userid="2622" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" role="button" aria-controls="popover-region-container-5e6f9b53b7ac95e6f9b53b3a3c39" aria-haspopup="true" aria-label="Wyświetl okno bez nowych wiadomości" tabindex="0">
+                <img class="icon " alt="Przełącz menu wiadomości" title="Przełącz menu wiadomości" src="Zadanie_pliki/image.svg">
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div id="popover-region-container-5e6f9b53b7ac95e6f9b53b3a3c39" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Okno powiadomiemia" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Wiadomości</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+            <a href="https://moodle.mimuw.edu.pl/message/index.php?contactsfirst=1">Nowa wiadomość
+            </a>
+        </div>
+        <a class="mark-all-read-button" href="#" role="button" title="Oznacz wszystko jako przeczytane" data-action="mark-all-read">
+            <span class="normal-icon"><img class="icon " alt="Oznacz wszystko jako przeczytane" title="Oznacz wszystko jako przeczytane" src="Zadanie_pliki/image_005.svg"></span>
+            <span class="loading-icon"><img class="icon " alt="Ładowanie" title="Ładowanie" src="Zadanie_pliki/image_002.gif"></span>
+        </a>
+        <a href="https://moodle.mimuw.edu.pl/message/edit.php?id=2622" title="Preferencje wiadomości">
+            <img class="icon " alt="Preferencje wiadomości" title="Preferencje wiadomości" src="Zadanie_pliki/image_014.svg">
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">Brak oczekujących wiadomości</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Ładowanie" title="Ładowanie" src="Zadanie_pliki/image_002.gif"></span>
+        </div>
+                <a class="see-all-link" href="https://moodle.mimuw.edu.pl/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Wyświetl wszystko</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="2622" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" role="button" aria-controls="popover-region-container-5e6f9b53b868c5e6f9b53b3a3c40" aria-haspopup="true" aria-label="Wyświetl okno bez nowych powiadomień" tabindex="0">
+                <img class="icon " alt="Przełącz menu powiadomień" title="Przełącz menu powiadomień" src="Zadanie_pliki/image_015.svg">
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div id="popover-region-container-5e6f9b53b868c5e6f9b53b3a3c40" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Okno powiadomiemia" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Powiadomienia</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="#" title="Oznacz wszystko jako przeczytane" data-action="mark-all-read" role="button">
+            <span class="normal-icon"><img class="icon " alt="Oznacz wszystko jako przeczytane" title="Oznacz wszystko jako przeczytane" src="Zadanie_pliki/image_005.svg"></span>
+            <span class="loading-icon"><img class="icon " alt="Ładowanie" title="Ładowanie" src="Zadanie_pliki/image_002.gif"></span>
+        </a>
+        <a href="https://moodle.mimuw.edu.pl/message/notificationpreferences.php?userid=2622" title="Preferencje powiadomień">
+            <img class="icon " alt="Preferencje powiadomień" title="Preferencje powiadomień" src="Zadanie_pliki/image_014.svg">
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Nie masz powiadomień</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Ładowanie" title="Ładowanie" src="Zadanie_pliki/image_002.gif"></span>
+        </div>
+                <a class="see-all-link" href="https://moodle.mimuw.edu.pl/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Wyświetl wszystko</div>
+                    </div>
+                </a>
+    </div>
+</div>                        <div class="nav-collapse collapse">
+                <ul class="nav"><li class="dropdown langmenu"><a href="" class="dropdown-toggle" data-toggle="dropdown" title="Język">Polski ‎(pl)‎<b class="caret"></b></a><ul class="dropdown-menu"><li><a title="English ‎(en)‎" href="https://moodle.mimuw.edu.pl/mod/assign/view.php?id=20359&amp;rownum=0&amp;useridlistid=5e6f9b53a90b2152609198&amp;action&amp;lang=en">English ‎(en)‎</a></li><li><a title="Polski ‎(pl)‎" href="https://moodle.mimuw.edu.pl/mod/assign/view.php?id=20359&amp;rownum=0&amp;useridlistid=5e6f9b53a90b2152609198&amp;action&amp;lang=pl">Polski ‎(pl)‎</a></li></ul></li></ul>                <ul class="nav pull-right">
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="page" class="container-fluid">
+    <header id="page-header" class="clearfix"><div class="page-context-header"><div class="page-header-headings"><h1>Programowanie współbieżne (Info II) 19/20</h1></div></div><div class="clearfix" id="page-navbar"><div class="breadcrumb-nav"><span class="accesshide" id="navbar-label">Ścieżka do strony</span><nav aria-labelledby="navbar-label"><ul class="breadcrumb"><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://moodle.mimuw.edu.pl/my/"><span itemprop="title">Kokpit</span></a></span> <span class="divider"> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">►</span> </span></li><li><span tabindex="0">Moje kursy</span> <span class="divider"> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">►</span> </span></li><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" title="Programowanie współbieżne (Info II) 19/20" href="https://moodle.mimuw.edu.pl/course/view.php?id=261"><span itemprop="title">PW.INFO.II.19/20</span></a></span> <span class="divider"> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">►</span> </span></li><li><span tabindex="0">Zajęcia 9 (3-6 grudnia)</span> <span class="divider"> <span class="accesshide "><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">►</span> </span></li><li><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" title="Zadanie" aria-current="page" href="https://moodle.mimuw.edu.pl/mod/assign/view.php?id=20359"><span itemprop="title">Zadanie zaliczeniowe 2: Asynchroniczne C</span></a></span></li></ul></nav></div><div class="breadcrumb-button"></div></div><div id="course-header"></div></header>    <div id="page-content" class="row-fluid">
+        <div id="region-main-box" class="span9 desktop-first-column">
+            <div class="row-fluid" id="yui_3_17_2_1_1584372564221_281">
+                <section id="region-main" class="span8 pull-right">
+                    <span class="notifications" id="user-notifications"></span><div role="main" id="yui_3_17_2_1_1584372564221_280"><span id="maincontent"></span><h2>Zadanie zaliczeniowe 2: Asynchroniczne C</h2><div id="intro" class="box generalbox boxaligncenter"><div class="no-overflow" id="yui_3_17_2_1_1584372564221_285"><span class="filter_mathjaxloader_equation"><span class="nolink"><h2>Wprowadzenie</h2>
+
+<p>Pula wątków to mechanizm pozwalający na uzyskanie współbieżnego wykonywanie wielu zadań w ramach jednego programu.
+W skład puli wchodzi pewna liczba wątków roboczych (ang. <em>worker threads</em>), czekających na pojawienie się pracy do wykonania.</p>
+
+<p>Użycie puli wątków pozwala uniknąć ciągłego powoływania i czekania na
+ zakończenie się wątku przy wykonywaniu krótkotrwałych
+zadań współbieżnych. Pozwala też na wykonywanie bardzo dużej liczby 
+zadań niezależnie od siebie w sytuacji, gdy liczba dostępnych potoków 
+przetwarzania jest ograniczona.</p>
+
+<h2>Polecenie</h2>
+
+<ul>
+<li><p>Zaimplementuj pulę wątków zgodnie z poniższym opisem szczegółowym (3 pkt).</p></li>
+<li><p>Zaimplementuj obliczenia <em>future</em> zgodnie z poniższym opisem szczegółowym (3 pkt).</p></li>
+<li><p>Napisz program przykładowy <strong>macierz</strong>, obliczający za pomocą puli wątków sumy wierszy z zadanej tablicy (1 pkt).</p></li>
+<li><p>Napisz program przykładowy <strong>silnia</strong>, obliczający za pomocą mechanizmu <em>future</em> silnię zadanej liczby (1 pkt).</p></li>
+<li><p>Zadbaj, aby kod był napisany w sposób klarowny i rzetelny zgodnie z poniższymi wytycznymi. (2 pkt).</p></li>
+</ul>
+
+<h3>Szczegółowy opis puli wątków</h3>
+
+<p>Pulę wątków należy zaimplementować jako realizację interfejsu przedstawionego w pliku <code>"threadpool.h"</code>.
+Zamieszczone tam są m.in. następujące deklaracje:</p>
+
+<pre><code class="C">typedef struct runnable {
+  void (*function)(void *, size_t);
+  void *arg;
+  size_t argsz;
+} runnable_t;
+
+typedef struct thread_pool {
+
+} thread_pool_t;
+
+int thread_pool_init(thread_pool_t *pool, size_t pool_size);
+
+void thread_pool_destroy(thread_pool_t *pool);
+
+int defer(thread_pool_t *pool, runnable_t runnable);
+</code></pre>
+
+<p>Wywołanie <code>thread_pool_init</code> inicjuje argument wskazywany przez <code>pool</code> jako nową pulę, w której będzie funkcjonować <code>pool_size</code> wątków obsługujących zgłoszone do wykonania zadania. Za gospodarkę pamięcią wskazywaną przez <code>pool</code> odpowiada użytkownik biblioteki. Poprawność działania biblioteki jest gwarantowana tylko, jeśli każda pula stworzona przez <code>thread_pool_init</code> jest niszczona przez wywołanie <code>thread_pool_destroy</code> z argumentem reprezentującym tę pulę.</p>
+
+<p>Wywołanie <code>defer(pool, runnable)</code> zleca puli wątków <code>pool</code> wykonanie zadania opisanego przez argument <code>runnable</code>, argumenty <code>function</code> są przekazywane przez wskaźnik <code>args</code>, w polu <code>argsz</code>
+ znajduje się długość dostępnego do pisania i czytania buforu 
+znajdującego się pod tym wskaźnikiem. Za zarządzanie pamięcią wskazywaną
+ przez <code>args</code> odpowiada klient biblioteki.</p>
+
+<p>Funkcja <code>function</code> powinna zostać obliczona przez wątek z puli <code>pool</code>; wywołanie <code>defer</code> może zablokować wywołujący je wątek, ale jedynie na potrzeby rejestracji zlecenia: powrót z <code>defer</code> jest niezależny od powrotu z wykonania <code>function</code> przez pulę.</p>
+
+<p>Zadania zlecone do wykonania przez <code>defer</code> powinny móc 
+wykonywać się współbieżnie i na tyle niezależnie od siebie, na ile to 
+możliwe.
+Można ograniczyć liczbę współbieżnie wykonywanych zadań do rozmiaru 
+puli. Pula w czasie swojego działania nie powinna powoływać więcej 
+wątków niż określono parametrem <code>pool_size</code>. Utworzone wątki są utrzymywane aż do wywołania <code>thread_pool_destroy</code>.</p>
+
+<p>Zastanów się nad tym, jak zrealizować powyższą bibliotekę tak, aby 
+wykonywała się możliwie sprawnie na współczesnych komputerach. Postaraj 
+się zrealizować taką implementację.</p>
+
+<h3>Szczegółowy opis mechanizmu obliczeń <em>future</em></h3>
+
+<p>Przy pomocy puli wątków i operacji <code>defer</code> należy zaimplenentować asynchroniczne obliczenia <code>future</code> jako realizację interfejsu przedstawionego w pliku  <code>"future.h"</code>. Zamieszczone są tam m.in. następujące deklaracje:</p>
+
+<pre><code class="C">typedef struct callable {
+  void *(*function)(void *, size_t, size_t *);
+  void *arg;
+  size_t argsz;
+} callable_t;
+
+typedef struct future {
+} future_t;
+
+int async(thread_pool_t *pool, future_t *future, callable_t callable);
+
+int map(thread_pool_t *pool, future_t *future, future_t *from,
+        void *(*function)(void *, size_t, size_t *));
+
+void *await(future_t *future);
+</code></pre>
+
+<p>Wywołanie <code>int err = async(pool, future_value, callable)</code> inicjuje pamięć wskazywaną przez <code>future_value</code>. Za zarządanie tą pamięcią odpowiada użytkownik biblioteki. Na puli <code>pool</code> zlecane jest wykonanie <code>function</code> z argumentu <code>callable</code>. Funkcja <code>function</code>
+ zwraca wskaźnik do wyniku. Użytkownik biblioteki powinien zadbać, żeby 
+poprawnie ustawiła też rozmiar wyniku wykorzystując do tego celu trzeci 
+argument typu <code>size_t*</code>.</p>
+
+<p>Wołający może teraz:</p>
+
+<ul>
+<li><p>Zaczekać na zakończenie wykonania funkcji <code>function</code> przez wywołanie:</p>
+
+<pre><code class="C">void *result = await(future_value);
+</code></pre>
+
+<p>Za gospodarkę pamięcią wskazywaną przez wskaźnik <code>result</code> odpowiada użytkownik biblioteki (pamięć ta może zostać przekazana do funkcji <code>function</code> za pomocą jej argumentów lub w tej funkcji zaalokowana).</p></li>
+<li><p>Zlecić jakiejś puli, niekoniecznie tej, która zainicjowała <code>future_value</code>, wywołanie innej funkcji na wyniku:</p>
+
+<pre><code class="C">err = map(pool2, mapped_value, future_value, function2);
+</code></pre></li>
+</ul>
+
+<p>Programy, w których aktywnie działa jakaś pula wątków, powinny mieć 
+automatycznie ustawioną obsługę sygnałów. Ta obsługa powinna zapewniać, 
+że program po otrzymaniu sygnału (SIGINT) zablokuje możliwość dodawania 
+nowych zadań do działających pul, dokończy wszystkie obliczenia zlecone 
+dotąd działającym pulom, a następnie zniszczy działające pule.</p>
+
+<p>Dla ułatwienia implementacji można założyć, że zaimplementowana 
+biblioteka będzie testowana w taki sposób, iż wątki nie będą ginęły w 
+testach.</p>
+
+<h3>Opis programu <strong>macierz</strong></h3>
+
+<p>Program <strong>macierz</strong> ma ze standardowego wejścia 
+wczytywać dwie liczby k oraz n, każda w osobnym wierszu. Liczby te 
+oznaczają odpowiednio liczbę wierszy oraz kolumn macierzy. Następnie 
+program ma wczytać k*n linijek z danymi, z których każda zawiera dwie, 
+oddzielone spacją liczby: v, t. Liczba v umieszczona w linijce i 
+(numerację linijek zaczynamy od 0) określa wartość macierzy z wiersza 
+floor(i/n) (numerację kolumn i wierszy zaczynamy od 0) oraz kolumny i 
+mod n. Liczba t to liczba milisekund, jakie są potrzebne do obliczenia 
+wartości v. Oto przykładowe poprawne dane wejściowe:</p>
+
+<pre><code class="bash">2
+3
+1 2
+1 5
+12 4
+23 9
+3 11
+7 2
+</code></pre>
+
+<p>Takie dane wejściowe tworzą macierz od dwóch wierszach i trzech kolumnach:</p>
+
+<pre><code class="bash">|  1  1 12 |
+| 23  3  7 |
+</code></pre>
+
+<p>Program ma za zadanie wczytać tak sformatowane wejście (można 
+zakładać, że podawane będą tylko poprawne dane), a następnie za pomocą 
+puli wątków zawierającej 4 wątki policzyć sumy wierszy, przy czym 
+pojedyncze zadanie obliczeniowe powinno podawać w wyniku wartość 
+pojedynczej komórki macierzy, odczekawszy liczbę milisekund, które 
+zostały wczytane jako potrzebne do obliczenia tej wartości (np. zadanie 
+obliczeniowe wyliczenia wartości 3 z macierzy powyżej powinno odczekiwać
+ 11 milisekund). Po obliczeniu należy wypisać sumy kolejnych wierszy na 
+standardowe wyjście, po jednej sumie w wierszu. Dla przykładowej 
+macierzy powyżej umieszczonej w pliku <code>data1.dat</code> wywołanie:</p>
+
+<pre><code class="bash">$ cat data1.dat | ./macierz
+</code></pre>
+
+<p>powinno spowodować pojawienie się na wyjściu</p>
+
+<pre><code>14
+33
+</code></pre>
+
+<h3>Opis programu <strong>silnia</strong></h3>
+
+<p>Program <strong>silnia</strong> powinien wczytywać ze standardowego 
+wejścia pojedynczą liczbę n, a następnie obliczać za pomocą puli 3 
+wątków liczbę n!. Po obliczeniu tej liczby wynik powinien zostać 
+wypisany na standardowe wyjście. Program powinien wyliczać silnię, 
+wykorzystując funkcję <code>map</code> i przekazując jej w <code>future_value</code> częściowe iloczyny. Dla przykładu wywołanie:</p>
+
+<pre><code class="bash">$ echo 5 | ./silnia
+</code></pre>
+
+<p>powinno spowodować pojawienie się na wyjściu</p>
+
+<pre><code>120
+</code></pre>
+
+<h2>Wymagania techniczne</h2>
+
+<p>Do synchronizacji można korzystać tylko z mechanizmów biblioteki <code>pthreads</code>.
+Można korzystać z plików nagłówkowych:</p>
+
+<pre><code>#include &lt;pthread.h&gt;
+#include &lt;semaphore.h&gt;
+#include &lt;stddef.h&gt;
+#include &lt;stdint.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+</code></pre>
+
+<p>Powyższa lista może ulec rozszerzeniu, jeśli okaże się to konieczne.
+Można założyć, że kod będzie kompilowany i testowany na serwerze <code>students</code>.</p>
+
+<p>Jako rozwiązanie należy wysłać na moodla plik <code>ab123456.tar.gz</code>, gdzie <code>ab123456</code> to login na students.
+W archiwum powinien znaleźć się jeden katalog o nazwie <code>ab123456</code> (login na students) z wszystkimi plikami rozwiązania.
+Kod programów przykładowych należy umieścić w plikach <code>macierz.c</code> i <code>silnia.c</code>. Nie powinna być konieczna modyfikacja plików <code>CMakeLists.txt</code>.
+Ciąg poleceń:</p>
+
+<pre><code>tar -xf ab123456.tar.gz
+mkdir build &amp;&amp; cd build
+cmake ../ab123456
+make
+</code></pre>
+
+<p>Powinien skompilować bibliotekę do pliku <code>build/libasyncc.a</code>, kompilator nie powinien wypisywać żadnych ostrzeżeń.
+Następnie można przetestować swoje rozwiązanie:</p>
+
+<pre><code>make test
+</code></pre>
+
+<p>W czasie oceniania zawartość katalogu <code>test</code> zostanie podmieniona.</p>
+
+<p>Na pytania do zadania odpowiadają <a href="https://moodle.mimuw.edu.pl/mod/assign/pc277629@mimuw.edu.pl">Piotr Cyrankiewicz</a> i <a href="https://moodle.mimuw.edu.pl/mod/assign/alx@mimuw.edu.pl">Aleksy Schubert</a>.</p>
+</span></span></div></div><div class="submissionstatustable"><h3>Status przesłanego zadania</h3><div class="box boxaligncenter submissionsummarytable"><table class="generaltable">
+<tbody><tr class="">
+<td class="cell c0" style="">Status przesłanego zadania</td>
+<td class="submissionstatussubmitted cell c1 lastcol" style="">Przesłane do oceny</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Stan oceniania</td>
+<td class="submissiongraded cell c1 lastcol" style="">Ocenione</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Termin oddania</td>
+<td class="cell c1 lastcol" style="">Tuesday, 7 January 2020, 20:00 PM</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Pozostały czas</td>
+<td class="earlysubmission cell c1 lastcol" style="">Zadanie zostało złożone 4 godz. 48 min. przed terminem</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Ostatnio modyfikowane</td>
+<td class="cell c1 lastcol" style="">Tuesday, 7 January 2020, 15:11 PM</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Przesyłane pliki</td>
+<td class="cell c1 lastcol" style=""><div class="box boxaligncenter plugincontentsummary summary_assignsubmission_file_48620"><div id="assign_files_tree5e6f9b53b3a3c46"><div class="ygtvitem" id="ygtv0"><div class="ygtvchildren" id="ygtvc0"><div class="ygtvitem" id="ygtv1"><table id="ygtvtableel1" class="ygtvtable ygtvdepth0 ygtv-expanded ygtv-highlight0" cellspacing="0" cellpadding="0" border="0"><tbody><tr class="ygtvrow"><td id="ygtvt1" class="ygtvcell ygtvln"><a href="#" class="ygtvspacer">&nbsp;</a></td><td id="ygtvcontentel1" class="ygtvcell ygtvhtml ygtvcontent"><div><img class="icon icon" alt="ar406309.tar.gz" title="ar406309.tar.gz" src="Zadanie_pliki/image_003.png"> <a target="_blank" href="https://moodle.mimuw.edu.pl/pluginfile.php?file=%2F52317%2Fassignsubmission_file%2Fsubmission_files%2F48620%2Far406309.tar.gz&amp;amp;forcedownload=1">ar406309.tar.gz</a>  </div></td></tr></tbody></table><div class="ygtvchildren" id="ygtvc1" style="display:none;"></div></div></div></div></div></div></td>
+</tr>
+<tr class="lastrow">
+<td class="cell c0" style="">Komentarz do przesłanego zadania</td>
+<td class="cell c1 lastcol" style=""><div class="box boxaligncenter plugincontentsummary summary_assignsubmission_comments_48620"><div class="commentscontainer"><div style="display:none" id="cmt-tmpl"><div class="comment-message"><div class="comment-message-meta m-r-3"><span class="picture">___picture___</span><span class="user">___name___</span> - <span class="time">___time___</span></div><div class="text">___content___</div></div></div><div class="mdl-left"><a class="showcommentsnonjs" href="https://moodle.mimuw.edu.pl/mod/assign/view.php?id=20359&amp;rownum=0&amp;useridlistid=5e6f9b53a90b2152609198&amp;action&amp;nonjscomment=1&amp;comment_itemid=48620&amp;comment_context=52317&amp;comment_component=assignsubmission_comments&amp;comment_area=submission_comments">Pokaż komentarze</a><a class="comment-link" id="comment-link-5e6f9b53dd04f" href="#" role="button" aria-expanded="false"><img class="icon " alt="Komentarze" title="Komentarze" src="Zadanie_pliki/image_026.svg"><span id="comment-link-text-5e6f9b53dd04f">Komentarze (0)</span></a><div id="comment-ctrl-5e6f9b53dd04f" class="comment-ctrl"><ul id="comment-list-5e6f9b53dd04f" class="comment-list"><li class="first"></li></ul><div id="comment-pagination-5e6f9b53dd04f" class="comment-pagination"></div><div class="comment-area"><div class="db"><textarea name="content" rows="2" id="dlg-content-5e6f9b53dd04f" aria-label="Dodaj komentarz ..." cols="20" style="color: grey;">Dodaj komentarz ...</textarea></div><div class="fd" id="comment-action-5e6f9b53dd04f"><a id="comment-action-post-5e6f9b53dd04f" href="#">Zapisz komentarz</a><span> | </span><a id="comment-action-cancel-5e6f9b53dd04f" href="#">Anuluj</a></div></div><div class="clearer"></div></div></div></div></div></td>
+</tr>
+</tbody>
+</table>
+</div><div class="box generalbox submissionaction"><div class="singlebutton"><form method="get" action="https://moodle.mimuw.edu.pl/mod/assign/view.php"><div><input type="submit" value="Edytuj zadanie"><input type="hidden" name="id" value="20359"><input type="hidden" name="action" value="editsubmission"></div></form></div><div class="box boxaligncenter submithelp">Możesz nadal zmieniać złożone zadanie</div></div></div><div class="feedback" id="yui_3_17_2_1_1584372564221_279"><h3>Informacja zwrotna</h3><div class="box boxaligncenter feedbacktable" id="yui_3_17_2_1_1584372564221_278"><table class="generaltable" id="yui_3_17_2_1_1584372564221_277">
+<tbody id="yui_3_17_2_1_1584372564221_276"><tr class="">
+<td class="cell c0" style="">Ocena</td>
+<td class="cell c1 lastcol" style="">8,00&nbsp;/&nbsp;10,00</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Ocenione dnia</td>
+<td class="cell c1 lastcol" style="">Friday, 24 January 2020, 01:14 AM</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Ocenione przez</td>
+<td class="cell c1 lastcol" style=""><a href="https://moodle.mimuw.edu.pl/user/view.php?id=7&amp;course=261"><img src="Zadanie_pliki/pluginfile.jpeg" class="userpicture" alt="Alx" title="Alx" width="35" height="35"></a><img class="icon spacer" alt="" aria-hidden="true" src="Zadanie_pliki/image.gif" width="30" height="1">Aleksy Schubert</td>
+</tr>
+<tr class="lastrow" id="yui_3_17_2_1_1584372564221_275">
+<td class="cell c0" style="">Komentarz zwrotny</td>
+<td class="cell c1 lastcol" style="" id="yui_3_17_2_1_1584372564221_274"><div class="box boxaligncenter plugincontentsummary summary_assignfeedback_comments_33440" id="yui_3_17_2_1_1584372564221_273" style="display: none;" hidden="hidden"><img class="icon expandsummaryicon expand_assignfeedback_comments_33440" alt="Zobacz całość" title="Zobacz całość" src="Zadanie_pliki/image_008.svg" id="yui_3_17_2_1_1584372564221_284"><noscript><a href="https://moodle.mimuw.edu.pl/mod/assign/view.php?id=20359&gid=33440&plugin=comments&action=viewpluginassignfeedback&returnaction&returnparams=rownum%3D0%26amp%3Buseridlistid%3D5e6f9b53a90b2152609198" id="action_link5e6f9b53b3a3c50" class="" ><img class="icon " alt="Wyświetl informację zwrotną" title="Wyświetl informację zwrotną" src="https://moodle.mimuw.edu.pl/theme/image.php?theme=more&amp;component=core&amp;rev=1569591006&amp;image=t%2Fpreview" /></a></noscript><img class="icon spacer" alt="" aria-hidden="true" src="Zadanie_pliki/image.gif" width="15" height="1"><p id="yui_3_17_2_1_1584372564221_272">Adam Rempała<br>Raport z oceny:<br><br>1. Zaimplementuj pulę wątków zgodnie z poniższym opisem szczegółowym (2,5/3 pkt).<br><br>* Realizacja puli wątków ...</p></div><div class="box boxaligncenter full_assignfeedback_comments_33440" style=""><img class="icon expandsummaryicon contract_assignfeedback_comments_33440" alt="Zobacz podsumowanie" title="Zobacz podsumowanie" src="Zadanie_pliki/image_003.svg"><p>Adam Rempała<br>Raport z oceny:<br><br>1. Zaimplementuj pulę wątków zgodnie z poniższym opisem szczegółowym (2,5/3 pkt).<br><br>* Realizacja puli wątków przez listę linkowaną, a nie tablicę - -0,5 pkt.<br><br>2. Zaimplementuj obliczenia future zgodnie z poniższym opisem szczegółowym (3/3 pkt).<br><br>3. Napisz program przykładowy macierz, obliczający za pomocą puli wątków sumy wierszy z zadanej tablicy (0/1 pkt).<br><br>* Niedeterministyczne wywalanie się programu - -1 pkt.<br><br>4. Napisz program przykładowy silnia, obliczający za pomocą mechanizmu future silnię zadanej liczby (1/1 pkt).<br><br>5. Zadbaj, aby kod był napisany w sposób klarowny i rzetelny zgodnie z poniższymi wytycznymi. (1,5/2 pkt).<br><br>* Alokacja bez sprawdzania poprawności zaalokowania -&nbsp; -0,5 pkt.<br><br>Razem: 8/10 pkt.<br><br></p></div></td>
+</tr>
+</tbody>
+</table>
+</div></div></div><div class="m-t-2 m-b-1">
+<div class="row-fluid rtl-compatible">
+    <div class="span4">        <div class="pull-left">
+                <a href="https://moodle.mimuw.edu.pl/mod/resource/view.php?id=17599&amp;forceview=1" id="prev-activity-link" class="btn btn-link" title="Ćwiczenia - rv cz. 2">◄ Ćwiczenia - rv cz. 2</a>
+
+        </div>
+</div>
+    <div class="span4">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://moodle.mimuw.edu.pl/course/jumpto.php" class="form-inline" id="url_select_f5e6f9b53b3a3c43">
+        <input type="hidden" name="sesskey" value="7edLBoIszg">
+            <label for="jump-to-activity" class="sr-only">
+                Przejdź do...
+            </label>
+        <select id="jump-to-activity" class="custom-select urlselect" name="jump">
+                    <option value="" selected="selected">Przejdź do...</option>
+                    <option value="/mod/forum/view.php?id=17544&amp;forceview=1">Forum aktualności</option>
+                    <option value="/mod/page/view.php?id=19492&amp;forceview=1">Zasady zaliczenia</option>
+                    <option value="/mod/resource/view.php?id=19454&amp;forceview=1">Wykład  2.10 - wprowadzenie</option>
+                    <option value="/mod/resource/view.php?id=19470&amp;forceview=1">Wykład 9.10 - semafory</option>
+                    <option value="/mod/page/view.php?id=17545&amp;forceview=1">Laboratorium - tworzenie wątków</option>
+                    <option value="/mod/resource/view.php?id=17546&amp;forceview=1">przyklady01/Jeden.java</option>
+                    <option value="/mod/resource/view.php?id=17547&amp;forceview=1">przyklady01/Dwa.java</option>
+                    <option value="/mod/resource/view.php?id=17548&amp;forceview=1">przyklady01/LiteryCyfry.java</option>
+                    <option value="/mod/resource/view.php?id=17549&amp;forceview=1">przyklady01/LiteryCyfryWierszami.java</option>
+                    <option value="/mod/resource/view.php?id=17552&amp;forceview=1">Ćwiczenia - algorytm Petersona</option>
+                    <option value="/mod/resource/view.php?id=19607&amp;forceview=1">Wykład - semafory cd, LTL</option>
+                    <option value="/mod/page/view.php?id=17553&amp;forceview=1">Laboratorium - kończenie wątków</option>
+                    <option value="/mod/resource/view.php?id=17554&amp;forceview=1">przyklady02/Przerwania.java</option>
+                    <option value="/mod/resource/view.php?id=17555&amp;forceview=1">przyklady02/LiteryCyfryWierszamiSwobodnie.java</option>
+                    <option value="/mod/resource/view.php?id=17558&amp;forceview=1">Ćwiczenia - semafory cz.1</option>
+                    <option value="/mod/resource/view.php?id=19608&amp;forceview=1">Wykład - dowodzenie poprawności programów współbieżnych</option>
+                    <option value="/mod/page/view.php?id=17559&amp;forceview=1">Laboratorium - synchronizacja</option>
+                    <option value="/mod/resource/view.php?id=17560&amp;forceview=1">przyklady03/DzielonyLicznik.java</option>
+                    <option value="/mod/resource/view.php?id=17561&amp;forceview=1">przyklady03/ProducenciKonsumenci.java</option>
+                    <option value="/mod/resource/view.php?id=17562&amp;forceview=1">przyklady03/Przestawianie.java</option>
+                    <option value="/mod/resource/view.php?id=17563&amp;forceview=1">przyklady03/Pobudka.java</option>
+                    <option value="/mod/resource/view.php?id=17564&amp;forceview=1">przyklady03/SumyWierszamiSekwencyjnie.java</option>
+                    <option value="/mod/resource/view.php?id=17566&amp;forceview=1">Ćwiczenia - semafory cz. 2</option>
+                    <option value="/mod/resource/view.php?id=19688&amp;forceview=1">Wykład - monitory</option>
+                    <option value="/mod/page/view.php?id=17567&amp;forceview=1">Laboratorium - dane dzielone</option>
+                    <option value="/mod/resource/view.php?id=17568&amp;forceview=1">przyklady04/LiteryCyfryDoTablicy.java</option>
+                    <option value="/mod/resource/view.php?id=17569&amp;forceview=1">przyklady04/WspolnaLista.java</option>
+                    <option value="/mod/resource/view.php?id=17570&amp;forceview=1">przyklady04/Liczniki.java</option>
+                    <option value="/mod/resource/view.php?id=17571&amp;forceview=1">przyklady04/KolejkaJedynek.java</option>
+                    <option value="/mod/assign/view.php?id=19643&amp;forceview=1">Zadanie zaliczeniowe 1: Sieć Petriego i jej zastosowania</option>
+                    <option value="/mod/resource/view.php?id=19644&amp;forceview=1">validate.sh</option>
+                    <option value="/mod/resource/view.php?id=19645&amp;forceview=1">Validate.java</option>
+                    <option value="/mod/resource/view.php?id=19804&amp;forceview=1">Ćwiczenia - semafory cz. 3</option>
+                    <option value="/mod/resource/view.php?id=19835&amp;forceview=1">Wykład - weryfikacja przez model</option>
+                    <option value="/mod/page/view.php?id=17577&amp;forceview=1">Laboratorium - obliczenia</option>
+                    <option value="/mod/resource/view.php?id=19907&amp;forceview=1">przyklady05/Kwadraty.java</option>
+                    <option value="/mod/resource/view.php?id=17579&amp;forceview=1">przyklady05/Piramida.java</option>
+                    <option value="/mod/resource/view.php?id=17580&amp;forceview=1">przyklady05/Jedynkowanie.java</option>
+                    <option value="/mod/resource/view.php?id=17581&amp;forceview=1">przyklady05/Fibonacci.java</option>
+                    <option value="/mod/resource/view.php?id=17583&amp;forceview=1">Ćwiczenia - monitory cz. 1</option>
+                    <option value="/mod/resource/view.php?id=19899&amp;forceview=1">Wykład - komunikacja asynchroniczna</option>
+                    <option value="/mod/page/view.php?id=17584&amp;forceview=1">Laboratorium - monitory</option>
+                    <option value="/mod/resource/view.php?id=17585&amp;forceview=1">przyklady06/Para.java</option>
+                    <option value="/mod/resource/view.php?id=17586&amp;forceview=1">przyklady06/TestPary.java</option>
+                    <option value="/mod/resource/view.php?id=17587&amp;forceview=1">przyklady06/Pozwalacz.java</option>
+                    <option value="/mod/resource/view.php?id=17588&amp;forceview=1">przyklady06/TestPozwalacza.java</option>
+                    <option value="/mod/resource/view.php?id=17591&amp;forceview=1">Ćwiczenia - monitory cz. 2</option>
+                    <option value="/mod/resource/view.php?id=20166&amp;forceview=1">Wykład - komunikacja synchroniczna</option>
+                    <option value="/mod/page/view.php?id=17600&amp;forceview=1">Laboratorium - współbieżność w systemie operacyjnym: procesy</option>
+                    <option value="/mod/folder/view.php?id=20141&amp;forceview=1">przyklady07</option>
+                    <option value="/mod/resource/view.php?id=17593&amp;forceview=1">Ćwiczenia - powtórzenie</option>
+                    <option value="/mod/resource/view.php?id=17612&amp;forceview=1">Zadania przygotowujące do kolokwium 1</option>
+                    <option value="/mod/page/view.php?id=17609&amp;forceview=1">Laboratorium - współbieżność w systemie operacyjnym: łącza</option>
+                    <option value="/mod/folder/view.php?id=17610&amp;forceview=1">przyklady08</option>
+                    <option value="/mod/resource/view.php?id=17597&amp;forceview=1">Ćwiczenia - rv cz. 1</option>
+                    <option value="/mod/resource/view.php?id=20376&amp;forceview=1">Wykład - rozproszone wzajemne wykluczanie</option>
+                    <option value="/mod/page/view.php?id=17618&amp;forceview=1">Laboratorium - biblioteka pthreads</option>
+                    <option value="/mod/folder/view.php?id=17619&amp;forceview=1">Przykłady: pthreads</option>
+                    <option value="/mod/resource/view.php?id=17599&amp;forceview=1">Ćwiczenia - rv cz. 2</option>
+                    <option value="/mod/folder/view.php?id=20386&amp;forceview=1">Zadanie zaliczeniowe 2: Asynchroniczne C</option>
+                    <option value="/mod/page/view.php?id=20470&amp;forceview=1">CZY – Często Zadawane pYtania do zadania 2</option>
+                    <option value="/mod/resource/view.php?id=20377&amp;forceview=1">Wykład - rozproszone uzgadnianie</option>
+                    <option value="/mod/page/view.php?id=17614&amp;forceview=1">Laboratorium - współbieżność w systemie operacyjnym: sygnały</option>
+                    <option value="/mod/folder/view.php?id=17615&amp;forceview=1">Przykłady: sygnały</option>
+                    <option value="/mod/resource/view.php?id=17602&amp;forceview=1">Ćwiczenia - rv cz. 3</option>
+                    <option value="/mod/page/view.php?id=17604&amp;forceview=1">Laboratorium - współbieżność w systemie operacyjnym: pamięć współdzielona i semafory</option>
+                    <option value="/mod/folder/view.php?id=17605&amp;forceview=1">Przykłady: pamięć współdzielona i semafory</option>
+                    <option value="/mod/resource/view.php?id=17608&amp;forceview=1">Ćwiczenia - krotki cz. 1</option>
+                    <option value="/mod/resource/view.php?id=20546&amp;forceview=1">Wykład - wydajność</option>
+                    <option value="/mod/page/view.php?id=20547&amp;forceview=1">Laboratorium - wątki w c++</option>
+                    <option value="/mod/folder/view.php?id=20548&amp;forceview=1">Przykłady - wątki w c++</option>
+                    <option value="/mod/resource/view.php?id=17613&amp;forceview=1">Ćwiczenia - krotki cz. 2</option>
+                    <option value="/mod/resource/view.php?id=20901&amp;forceview=1">Rozwiązanie zadania 1 (krotki)</option>
+                    <option value="/mod/page/view.php?id=20600&amp;forceview=1">Laboratorium - synchronizacja w c++</option>
+                    <option value="/mod/folder/view.php?id=20605&amp;forceview=1">Przykłady - synchronizacja w c++</option>
+                    <option value="/mod/resource/view.php?id=17617&amp;forceview=1">Ćwiczenia - Cilk cz. 1</option>
+                    <option value="/mod/assign/view.php?id=20610&amp;forceview=1">Zadanie zaliczeniowe 3: Współbieżność w C++</option>
+                    <option value="/mod/resource/view.php?id=20829&amp;forceview=1">Wykład - spójność pamięci</option>
+                    <option value="/mod/page/view.php?id=20762&amp;forceview=1"> Laboratorium - model pamięci w c++</option>
+                    <option value="/mod/folder/view.php?id=20761&amp;forceview=1">Przykłady - model pamięci w c++</option>
+                    <option value="/mod/resource/view.php?id=17621&amp;forceview=1">Ćwiczenia - Cilk cz. 2</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary" value="Wykonaj">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="span4">        <div class="pull-right">
+                <a href="https://moodle.mimuw.edu.pl/mod/folder/view.php?id=20386&amp;forceview=1" id="next-activity-link" class="btn btn-link" title="Zadanie zaliczeniowe 2: Asynchroniczne C">Zadanie zaliczeniowe 2: Asynchroniczne C ►</a>
+
+        </div>
+</div>
+</div>
+</div>                </section>
+                <aside id="block-region-side-pre" class="span4 desktop-first-column block-region" data-blockregion="side-pre" data-droptarget="1"><a class="skip skip-block" id="fsb-1" href="#sb-1" style="display: none;" hidden="hidden">Pomiń Nawigacja</a><div class="block_dock_placeholder"></div><span class="skip-block-to" id="sb-1"></span><a class="skip skip-block" id="fsb-2" href="#sb-2" style="display: none;" hidden="hidden">Pomiń Administracja</a><div class="block_dock_placeholder"></div><span class="skip-block-to" id="sb-2"></span></aside>            </div>
+        </div>
+        <aside id="block-region-side-post" class="span3 pull-right block-region" data-blockregion="side-post" data-droptarget="1"></aside>    </div>
+
+    <footer id="page-footer">
+        <div id="course-footer"></div>
+        <p class="helplink"></p>
+        <div class="logininfo">Jesteś zalogowany(a) jako <a href="https://moodle.mimuw.edu.pl/user/profile.php?id=2622" title="Zobacz profil">Adam Rempała</a> (<a href="https://moodle.mimuw.edu.pl/login/logout.php?sesskey=7edLBoIszg">Wyloguj</a>)</div><div class="homelink"><a href="https://moodle.mimuw.edu.pl/course/view.php?id=261">PW.INFO.II.19/20</a></div><div class="tool_dataprivacy"><a href="https://moodle.mimuw.edu.pl/admin/tool/dataprivacy/summary.php">Podsumowanie zasad przechowywania danych</a></div><a href="https://download.moodle.org/mobile?version=2018051707.05&amp;lang=pl&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Pobierz aplikację mobilną</a>    </footer>
+
+    
+<p align="center">
+Moodle,  wersja 3.5.7+ (Build: 20190823) | <a href="mailto:moodle@mimuw.edu.pl">moodle@mimuw.edu.pl</a>
+</p><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.mimuw.edu.pl/lib/requirejs.php?file=%2F1569591006%2F',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.mimuw.edu.pl/lib/javascript.php?file=%2F1569591006%2Flib/jquery/jquery-3.2.1.min.js',
+        jqueryui: 'https://moodle.mimuw.edu.pl/lib/javascript.php?file=%2F1569591006%2Flib/jquery/ui-1.12.1/jquery-ui.min.js',
+        jqueryprivate: 'https://moodle.mimuw.edu.pl/lib/javascript.php?file=%2F1569591006%2Flib/requirejs/jquery-private.js'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="Zadanie_pliki/javascript_004.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.mimuw.edu.pl/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("pl",{
+ "Play": "Odtwarzaj",
+ "Pause": "Pauza",
+ "Current Time": "Aktualny czas",
+ "Duration Time": "Czas trwania",
+ "Remaining Time": "Pozostały czas",
+ "Stream Type": "Typ strumienia",
+ "LIVE": "NA ŻYWO",
+ "Loaded": "Załadowany",
+ "Progress": "Status",
+ "Fullscreen": "Pełny ekran",
+ "Non-Fullscreen": "Pełny ekran niedostępny",
+ "Mute": "Wyłącz dźwięk",
+ "Unmute": "Włącz dźwięk",
+ "Playback Rate": "Szybkość odtwarzania",
+ "Subtitles": "Napisy",
+ "subtitles off": "Napisy wyłączone",
+ "Captions": "Transkrypcja",
+ "captions off": "Transkrypcja wyłączona",
+ "Chapters": "Rozdziały",
+ "You aborted the media playback": "Odtwarzanie zostało przerwane",
+ "A network error caused the media download to fail part-way.": "Problemy z siecią spowodowały błąd przy pobieraniu materiału wideo.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Materiał wideo nie może być załadowany, ponieważ wystąpił problem z siecią lub format nie jest obsługiwany",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "Odtwarzanie materiału wideo zostało przerwane z powodu uszkodzonego pliku wideo lub z powodu błędu funkcji, które nie są wspierane przez przeglądarkę.",
+ "No compatible source was found for this media.": "Dla tego materiału wideo nie znaleziono kompatybilnego źródła.",
+ "Play video": "Odtwarzaj wideo",
+ "Close": "Zamknij",
+ "Modal Window": "Okno Modala",
+ "This is a modal window": "To jest okno modala",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "Ten modal możesz zamknąć naciskając przycisk Escape albo wybierając przycisk Zamknij.",
+ ", opens captions settings dialog": ", otwiera okno dialogowe ustawień transkrypcji",
+ ", opens subtitles settings dialog": ", otwiera okno dialogowe napisów",
+ ", selected": ", zaznaczone"
+});
+
+    });
+});;
+require(["block_navigation/navblock"], function(amd) { amd.init("4"); });;
+require(["block_settings/settingsblock"], function(amd) { amd.init("5", null); });;
+
+require(['core/yui'], function(Y) {
+    M.util.init_skiplink(Y);
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select5e6f9b53b3a3c30').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5e6f9b53b3a3c29').submit();
+        }
+    });
+});
+;
+
+require(['core/yui'], function(Y) {
+    Y.use('moodle-core-actionmenu', function() {
+        M.core.actionmenu.init();
+    });
+});
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select5e6f9b53b3a3c42').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5e6f9b53b3a3c41').submit();
+        }
+    });
+});
+;
+
+        require(['jquery'], function($) {
+            $('#jump-to-activity').change(function() {
+                if (!$(this).val()) {
+                    return false;
+                }
+                $('#url_select_f5e6f9b53b3a3c43').submit();
+            });
+        });
+    ;
+require(["core/notification"], function(amd) { amd.init(52317, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"mod_assign":{"name":"mod_assign","fullpath":"https:\/\/moodle.mimuw.edu.pl\/lib\/javascript.php?rev=1569591006&jsfile=%2Fmod%2Fassign%2Fmodule.js","requires":[]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.mimuw.edu.pl\/lib\/javascript.php?rev=1569591006&jsfile=%2Fcomment%2Fcomment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}});
+
+//]]>
+</script>
+<script type="text/javascript" src="Zadanie_pliki/javascript_002.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Ostatnia modyfikacja","name":"Nazwa","error":"B\u0142\u0105d","info":"Informacja","yes":"Tak","no":"Nie","viewallcourses":"Zobacz wszystkie kursy","cancel":"Anuluj","morehelp":"Wi\u0119cej pomocy","loadinghelp":"\u0141adowanie ...","addcomment":"Dodaj komentarz ...","comments":"Komentarze","commentscount":"Komentarze ({$a})","commentsrequirelogin":"Musisz si\u0119 zalogowa\u0107, aby zobaczy\u0107 komentarze.","deletecommentbyon":"Usu\u0144 komentarz zamieszczony przez {$a->user} dnia {$a->time}","confirm":"Potwierd\u017a","areyousure":"Jeste\u015b pewien?","closebuttontitle":"Zamknij","unknownerror":"Nieznany b\u0142\u0105d"},"repository":{"type":"Typ","size":"Rozmiar","invalidjson":"Nieprawid\u0142owy ci\u0105g jSON","nofilesattached":"Nie za\u0142\u0105czono plik\u00f3w","filepicker":"Wyb\u00f3r plik\u00f3w","logout":"Wyloguj si\u0119","nofilesavailable":"Brak dost\u0119pnych plik\u00f3w","norepositoriesavailable":"Niestety, \u017cadne z istniej\u0105cych repozytori\u00f3w nie mo\u017ce zawiera\u0107 plik\u00f3w w wymaganym formacie.","fileexistsdialogheader":"Plik istnieje","fileexistsdialog_editor":"Plik o wybranej nazwie zosta\u0142 ju\u017c za\u0142\u0105czony do tekstu, kt\u00f3ry edytujesz.","fileexistsdialog_filemanager":"Plik o wybranej nazwie ju\u017c zosta\u0142 do\u0142\u0105czony","renameto":"Zmie\u0144 nazw\u0119 na","referencesexist":"Istnieje {$a} skr\u00f3t\u00f3w, kt\u00f3re wykorzystuj\u0105 ten plik jako \u017ar\u00f3d\u0142o.","select":"Wybierz"},"admin":{"confirmdeletecomments":"Zamierzasz usun\u0105\u0107 komentarze, czy jeste\u015b pewien(a)?","confirmation":"Potwierdzenie"},"block":{"addtodock":"Zadokuj","undockitem":"Od\u0142\u0105cz t\u0105 pozycj\u0119","dockblock":"Zadokuj blok {$a}","undockblock":"Od\u0142\u0105cz blok {$a}","undockall":"Od\u0142\u0105cz wszystkie","hidedockpanel":"Ukryj panel dokowania","hidepanel":"Ukryj panel"},"langconfig":{"thisdirectionvertical":"btt"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\n\nMathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\",\r\n    tex2jax: {\r\n        inlineMath: [['$','$'], ['\\\\(','\\\\)'], ['@i','@i']],\r\n        processEscapes: true\r\n    }\r\n});\r\n","lang":"pl"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst4","title":"Nawigacja","preference":"block4hidden","tooltipVisible":"Ukryj blok Nawigacja","tooltipHidden":"Poka\u017c blok Nawigacja"});
+M.util.init_block_hider(Y, {"id":"inst5","title":"Administracja","preference":"block5hidden","tooltipVisible":"Ukryj blok Administracja","tooltipHidden":"Poka\u017c blok Administracja"});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+ M.util.js_pending('random5e6f9b53b3a3c47'); Y.use('mod_assign', function(Y) { M.mod_assign.init_tree(Y, true, "assign_files_tree5e6f9b53b3a3c46");  M.util.js_complete('random5e6f9b53b3a3c47'); });
+ M.util.js_pending('random5e6f9b53b3a3c48'); Y.on('domready', function() {  M.util.js_pending('random5e6f9b53b3a3c48'); Y.use('core_comment', function(Y) { M.core_comment.init(Y, {"client_id":"5e6f9b53dd04f","commentarea":"submission_comments","itemid":"48620","page":0,"courseid":"261","contextid":52317,"component":"assignsubmission_comments","notoggle":false,"autostart":false});  M.util.js_complete('random5e6f9b53b3a3c48'); });  M.util.js_complete('random5e6f9b53b3a3c48'); });
+ M.util.js_pending('random5e6f9b53b3a3c49'); Y.use('mod_assign', function(Y) { M.mod_assign.init_plugin_summary(Y, "assignfeedback", "comments", "33440");  M.util.js_complete('random5e6f9b53b3a3c49'); });
+ M.util.js_pending('random5e6f9b53b3a3c51'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5e6f9b53b3a3c51'); });
+})();
+//]]>
+</script>
+
+</div>
+
+
+<div id="dock" role="menubar" class="dock_left_vertical"><div class="buttons_container"><div class="dockeditem_container"><div id="dock_item_0" class="dockeditem firstdockitem" tabindex="0" rel="0"><div id="dock_item_0_title" role="menu" aria-haspopup="true" class="dockedtitle"><div style="height: 81px; position: relative;"><h2 class="css3transform" style="position: relative; font-size: 11px; width: 64.8px; top: 25.9px; right: 19.4px; transform: rotate(270deg);">Nawigacja</h2></div></div></div><div id="dock_item_1" class="dockeditem" tabindex="0" rel="1"><div id="dock_item_1_title" role="menu" aria-haspopup="true" class="dockedtitle"><div style="height: 109.5px; position: relative;"><h2 class="css3transform" style="position: relative; font-size: 11px; width: 87.6px; top: 37.3px; right: 30.8px; transform: rotate(270deg);">Administracja</h2></div></div></div></div><div class="controls"><img alt="Odłącz wszystkie" tabindex="0" src="Zadanie_pliki/image_024.svg"></div></div></div><div style="display: none;"><div id="inst4" class="block_navigation block" role="navigation" data-block="navigation" data-instanceid="4" aria-labelledby="instance-4-header" data-dockable="1"><div class="header"><div class="title" id="yui_3_17_2_1_1584372564221_197"><div class="block_action"><img class="block-hider-hide" alt="Ukryj blok Nawigacja" src="Zadanie_pliki/image_023.svg" tabindex="0" title="Ukryj blok Nawigacja"><img class="block-hider-show" alt="Pokaż blok Nawigacja" src="Zadanie_pliki/image_002.svg" tabindex="0" title="Pokaż blok Nawigacja"><input type="image" class="moveto customcommand requiresjs" alt="Zadokuj" title="Zadokuj blok Nawigacja" src="Zadanie_pliki/image_020.svg"></div><h2 id="instance-4-header">Nawigacja</h2></div></div><div class="content"><ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/nav_loader"><li class="type_unknown depth_1 contains_branch" aria-labelledby="label_1_1" tabindex="-1"><p class="tree_item branch navigation_node" role="treeitem" aria-expanded="true" aria-owns="random5e6f9b53b3a3c1_group" data-collapsible="false" tabindex="0" aria-selected="true"><a tabindex="-1" id="label_1_1" href="https://moodle.mimuw.edu.pl/my/">Kokpit</a></p><ul id="random5e6f9b53b3a3c1_group" role="group" tabindex="-1"><li class="type_setting depth_2 item_with_icon" aria-labelledby="label_2_2" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_2_2" href="https://moodle.mimuw.edu.pl/?redirect=0"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_012.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Strona główna</span></a></p></li><li class="type_course depth_2 contains_branch" aria-labelledby="label_2_3" tabindex="-1"><p class="tree_item branch" role="treeitem" aria-expanded="false" aria-owns="random5e6f9b53b3a3c3_group" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_2_3" title="Moodle MIM UW">Strony</span></p><ul id="random5e6f9b53b3a3c3_group" role="group" aria-hidden="true" tabindex="-1"><li class="type_unknown depth_3 item_with_icon" aria-labelledby="label_3_5" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_5" href="https://moodle.mimuw.edu.pl/blog/index.php"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_016.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Blogi strony</span></a></p></li><li class="type_custom depth_3 item_with_icon" aria-labelledby="label_3_6" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_6" href="https://moodle.mimuw.edu.pl/badges/view.php?type=1"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_016.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Strona odznak</span></a></p></li><li class="type_setting depth_3 item_with_icon" aria-labelledby="label_3_7" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_7" href="https://moodle.mimuw.edu.pl/tag/search.php"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_016.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Tagi</span></a></p></li><li class="type_custom depth_3 item_with_icon" aria-labelledby="label_3_8" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_8" href="https://moodle.mimuw.edu.pl/calendar/view.php?view=month&amp;course=261"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_022.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Kalendarz</span></a></p></li><li class="type_activity depth_3 item_with_icon" aria-labelledby="label_3_10" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_10" title="Forum" href="https://moodle.mimuw.edu.pl/mod/forum/view.php?id=3281"><img class="icon navicon" alt="Forum" title="Forum" src="Zadanie_pliki/image_007.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Aktualności</span></a></p></li></ul></li><li class="type_system depth_2 contains_branch" aria-labelledby="label_2_11" tabindex="-1"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="true" aria-owns="random5e6f9b53b3a3c9_group" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_2_11">Moje kursy</span></p><ul id="random5e6f9b53b3a3c9_group" role="group" tabindex="-1"><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_12" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_318" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_318" data-node-key="318" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_12" title="Inżynieria oprogramowania (Info, II rok) 19/20" href="https://moodle.mimuw.edu.pl/course/view.php?id=318">IO.INFO.II.19/20</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_13" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_313" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_313" data-node-key="313" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_13" title="Sieci Komputerowe (Info, II rok) 19/20" href="https://moodle.mimuw.edu.pl/course/view.php?id=313">SK.INFO.II.19/20</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_14" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_307" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_307" data-node-key="307" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_14" title="Systemy operacyjne (Info, II rok) 19/20" href="https://moodle.mimuw.edu.pl/course/view.php?id=307">SO.INFO.I.19/20</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_15" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_271" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_271" data-node-key="271" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_15" title="Bazy danych (Info, II rok) 19/20" href="https://moodle.mimuw.edu.pl/course/view.php?id=271">BD.INFO.II.19/20</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_16" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_270" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_270" data-node-key="270" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_16" title="Języki i narzędzia programowania I (Info, II rok) 19/20" href="https://moodle.mimuw.edu.pl/course/view.php?id=270">JNP1.INFO.II.19/20</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_17" tabindex="-1"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="true" aria-owns="random5e6f9b53b3a3c10_group" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_17" title="Programowanie współbieżne (Info II) 19/20" href="https://moodle.mimuw.edu.pl/course/view.php?id=261">PW.INFO.II.19/20</a></p><ul id="random5e6f9b53b3a3c10_group" role="group" tabindex="-1"><li class="type_container depth_4 contains_branch" aria-labelledby="label_4_18" tabindex="-1"><p class="tree_item branch" role="treeitem" aria-expanded="false" aria-owns="random5e6f9b53b3a3c11_group" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_4_18" href="https://moodle.mimuw.edu.pl/user/index.php?id=261">Uczestnicy</a></p><ul id="random5e6f9b53b3a3c11_group" role="group" aria-hidden="true" tabindex="-1"><li class="type_setting depth_5 item_with_icon" aria-labelledby="label_5_19" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_19" href="https://moodle.mimuw.edu.pl/blog/index.php?courseid=261"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_016.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Blogi kursu</span></a></p></li><li class="type_user depth_5 item_with_icon" aria-labelledby="label_5_20" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_20" href="https://moodle.mimuw.edu.pl/user/view.php?id=2622&amp;course=261"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_016.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Adam Rempała</span></a></p></li></ul></li><li class="type_setting depth_4 item_with_icon" aria-labelledby="label_4_21" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_4_21" href="https://moodle.mimuw.edu.pl/badges/view.php?type=2&amp;id=261"><img class="icon navicon" alt="Odznaki" title="Odznaki" src="Zadanie_pliki/image_006.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Odznaki</span></a></p></li><li class="type_setting depth_4 item_with_icon" aria-labelledby="label_4_22" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_4_22" href="https://moodle.mimuw.edu.pl/admin/tool/lp/coursecompetencies.php?courseid=261"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_021.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Kompetencje</span></a></p></li><li class="type_setting depth_4 item_with_icon" aria-labelledby="label_4_23" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_4_23" href="https://moodle.mimuw.edu.pl/grade/report/index.php?id=261"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_018.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Oceny</span></a></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_24" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4495" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4495" data-node-key="4495" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_24">Sekcja ogólna</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_25" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4496" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4496" data-node-key="4496" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_25">Zajęcia 1 (2-10 października)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_26" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4497" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4497" data-node-key="4497" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_26">Zajęcia 2 (11-17 października)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_27" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4498" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4498" data-node-key="4498" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_27">Zajęcia 3 (18-24 października)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_28" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4499" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4499" data-node-key="4499" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_28">Zajęcia 4 (25-31 października)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_29" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4500" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4500" data-node-key="4500" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_29">Zajęcia 5 (5-8 listopada)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_30" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4501" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4501" data-node-key="4501" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_30">Zajęcia 6 (12-15 listopada)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_31" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4502" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4502" data-node-key="4502" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_31">Zajęcia 7 (19-22 listopada)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_32" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4503" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4503" data-node-key="4503" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_32">Zajęcia 8 (26-29  listopada)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_33" tabindex="-1"><p class="tree_item branch" role="treeitem" aria-expanded="true" aria-owns="random5e6f9b53b3a3c17_group" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_33">Zajęcia 9 (3-6 grudnia)</span></p><ul id="random5e6f9b53b3a3c17_group" role="group" tabindex="-1"><li class="type_activity depth_5 item_with_icon" aria-labelledby="label_5_34" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_34" title="Plik" href="https://moodle.mimuw.edu.pl/mod/resource/view.php?id=20376"><img class="icon navicon" alt="Plik" title="Plik" src="Zadanie_pliki/image_002.png" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Wykład - rozproszone wzajemne wykluczanie</span></a></p></li><li class="type_activity depth_5 item_with_icon" aria-labelledby="label_5_35" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_35" title="Strona" href="https://moodle.mimuw.edu.pl/mod/page/view.php?id=17618"><img class="icon navicon" alt="Strona" title="Strona" src="Zadanie_pliki/image_013.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Laboratorium - biblioteka pthreads</span></a></p></li><li class="type_activity depth_5 item_with_icon" aria-labelledby="label_5_36" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_36" title="Folder" href="https://moodle.mimuw.edu.pl/mod/folder/view.php?id=17619"><img class="icon navicon" alt="Folder" title="Folder" src="Zadanie_pliki/image_025.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Przykłady: pthreads</span></a></p></li><li class="type_activity depth_5 item_with_icon" aria-labelledby="label_5_38" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_38" title="Plik" href="https://moodle.mimuw.edu.pl/mod/resource/view.php?id=17599"><img class="icon navicon" alt="Plik" title="Plik" src="Zadanie_pliki/image_002.png" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Ćwiczenia - rv cz. 2</span></a></p></li><li class="type_activity depth_5 item_with_icon current_branch" aria-labelledby="label_5_39" tabindex="-1"><p class="tree_item hasicon active_tree_node" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_39" title="Zadanie" href="https://moodle.mimuw.edu.pl/mod/assign/view.php?id=20359"><img class="icon navicon" alt="Zadanie" title="Zadanie" src="Zadanie_pliki/image_010.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Zadanie zaliczeniowe 2: Asynchroniczne C</span></a></p></li><li class="type_activity depth_5 item_with_icon" aria-labelledby="label_5_40" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_40" title="Folder" href="https://moodle.mimuw.edu.pl/mod/folder/view.php?id=20386"><img class="icon navicon" alt="Folder" title="Folder" src="Zadanie_pliki/image_025.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Zadanie zaliczeniowe 2: Asynchroniczne C</span></a></p></li><li class="type_activity depth_5 item_with_icon" aria-labelledby="label_5_41" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_5_41" title="Strona" href="https://moodle.mimuw.edu.pl/mod/page/view.php?id=20470"><img class="icon navicon" alt="Strona" title="Strona" src="Zadanie_pliki/image_013.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">CZY – Często Zadawane pYtania do zadania 2</span></a></p></li></ul></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_42" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4505" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4505" data-node-key="4505" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_42">Zajęcia 10 (10-13 grudnia)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_43" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4506" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4506" data-node-key="4506" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_43">Zajęcia 11 (17-20 grudnia)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_44" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4507" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4507" data-node-key="4507" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_44">Zajęcia 12 (7-10  stycznia)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_45" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4508" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4508" data-node-key="4508" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_45">Zajęcia 13 (14-17 stycznia)</span></p></li><li class="type_structure depth_4 contains_branch" aria-labelledby="label_4_46" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_30_4509" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_30_4509" data-node-key="4509" data-node-type="30" tabindex="-1" aria-selected="false"><span tabindex="-1" id="label_4_46">Zajęcia 14 (21-24 stycznia)</span></p></li></ul></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_47" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_203" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_203" data-node-key="203" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_47" title="Matematyka dyskretna (Info, I rok) 18/19" href="https://moodle.mimuw.edu.pl/course/view.php?id=203">MD.INFO.I.18/19</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_48" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_188" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_188" data-node-key="188" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_48" title="Indywidualny projekt programistyczny (Info, I rok) 18/19" href="https://moodle.mimuw.edu.pl/course/view.php?id=188"> IPP.INFO.I.18/19</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_49" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_182" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_182" data-node-key="182" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_49" title="Programowanie obiektowe (Info, I rok) 18/19" href="https://moodle.mimuw.edu.pl/course/view.php?id=182">PO.INFO.I.18/19</a></p></li><li class="type_course depth_3 contains_branch" aria-labelledby="label_3_50" tabindex="-1"><p class="tree_item branch" role="treeitem" id="expandable_branch_20_179" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_20_179" data-node-key="179" data-node-type="20" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_50" title="Podstawy ochrony własności intelektualnej (Info, I rok) 18/19" href="https://moodle.mimuw.edu.pl/course/view.php?id=179">POWI.INFO.I.18/19</a></p></li><li class="type_custom depth_3 item_with_icon" aria-labelledby="label_3_51" tabindex="-1"><p class="tree_item hasicon" role="treeitem" tabindex="-1" aria-selected="false"><a tabindex="-1" id="label_3_51" href="https://moodle.mimuw.edu.pl/my/?myoverviewtab=courses"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_016.svg" tabindex="-1"><span class="item-content-wrap" tabindex="-1">Więcej...</span></a></p></li></ul></li></ul></li></ul></div></div><div id="inst5" class="block_settings block" role="navigation" data-block="settings" data-instanceid="5" aria-labelledby="instance-5-header" data-dockable="1"><div class="header"><div class="title" id="yui_3_17_2_1_1584372564221_213"><div class="block_action"><img class="block-hider-hide" alt="Ukryj blok Administracja" src="Zadanie_pliki/image_023.svg" tabindex="0" title="Ukryj blok Administracja"><img class="block-hider-show" alt="Pokaż blok Administracja" src="Zadanie_pliki/image_002.svg" tabindex="0" title="Pokaż blok Administracja"><input type="image" class="moveto customcommand requiresjs" alt="Zadokuj" title="Zadokuj blok Administracja" src="Zadanie_pliki/image_020.svg"></div><h2 id="instance-5-header">Administracja</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/site_admin_loader"><li class="type_course depth_1 contains_branch" tabindex="-1" aria-labelledby="label_1_1"><p class="tree_item root_node tree_item branch" role="treeitem" aria-expanded="false" aria-owns="random5e6f9b53b3a3c26_group" tabindex="0" aria-selected="true"><span tabindex="-1">Administracja kursem</span></p><ul id="random5e6f9b53b3a3c26_group" role="group" aria-hidden="true" tabindex="-1"><li class="type_setting depth_2 item_with_icon" tabindex="-1" aria-labelledby="label_2_1"><p class="tree_item hasicon tree_item leaf" role="treeitem" tabindex="-1" aria-selected="false"><a href="https://moodle.mimuw.edu.pl/enrol/self/unenrolself.php?enrolid=785" tabindex="-1"><img class="icon navicon" alt="" aria-hidden="true" src="Zadanie_pliki/image_004.svg" tabindex="-1">Wypisz mnie z PW.INFO.II.19/20</a></p></li></ul></li></ul></div></div></div></div></body></html>
