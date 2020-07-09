@@ -1,0 +1,86 @@
+Start testing: Jan 04 20:13 CET
+----------------------------------------------------------
+1/4 Testing: test_defer
+1/4 Test: test_defer
+Command: "/home/adam/CLionProjects/c_asynchronic/test/test/test_defer"
+Directory: /home/adam/CLionProjects/c_asynchronic/test/test
+"test_defer" start time: Jan 04 20:13 CET
+Output:
+----------------------------------------------------------
+/home/adam/CLionProjects/c_asynchronic/test/defer.c: ALL TESTS PASSED
+/home/adam/CLionProjects/c_asynchronic/test/defer.cTests run: 100
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_defer" end time: Jan 04 20:13 CET
+"test_defer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: test_await
+2/4 Test: test_await
+Command: "/home/adam/CLionProjects/c_asynchronic/test/test/test_await"
+Directory: /home/adam/CLionProjects/c_asynchronic/test/test
+"test_await" start time: Jan 04 20:13 CET
+Output:
+----------------------------------------------------------
+/home/adam/CLionProjects/c_asynchronic/test/await.c ALL TESTS PASSED
+/home/adam/CLionProjects/c_asynchronic/test/await.c Tests run: 100
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_await" end time: Jan 04 20:13 CET
+"test_await" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test_macierzy
+3/4 Test: test_macierzy
+Command: "/home/adam/CLionProjects/c_asynchronic/test/test/macierz.sh" "1"
+Directory: /home/adam/CLionProjects/c_asynchronic/test/test
+"test_macierzy" start time: Jan 04 20:13 CET
+Output:
+----------------------------------------------------------
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud1.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud1
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud2.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud2
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud3.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud3
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud4.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud4
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud5.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud5
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud6.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud6
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud7.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud7
+/home/adam/CLionProjects/c_asynchronic/test/dane/stud8.txt
+/home/adam/CLionProjects/c_asynchronic/test/dane stud8
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"test_macierzy" end time: Jan 04 20:13 CET
+"test_macierzy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: test_silni
+4/4 Test: test_silni
+Command: "/home/adam/CLionProjects/c_asynchronic/test/test/silnia.sh" "1"
+Directory: /home/adam/CLionProjects/c_asynchronic/test/test
+"test_silni" start time: Jan 04 20:13 CET
+Output:
+----------------------------------------------------------
+1
+2
+5
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_silni" end time: Jan 04 20:13 CET
+"test_silni" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 04 20:13 CET

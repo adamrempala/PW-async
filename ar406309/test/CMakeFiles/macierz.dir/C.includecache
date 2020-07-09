@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adam/CLionProjects/c_asynchronic/future.h
+threadpool.h
+/home/adam/CLionProjects/c_asynchronic/threadpool.h
+
+/home/adam/CLionProjects/c_asynchronic/macierz.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+future.h
+/home/adam/CLionProjects/c_asynchronic/future.h
+
+/home/adam/CLionProjects/c_asynchronic/threadpool.h
+stddef.h
+-
+pthread.h
+-
+semaphore.h
+-
+

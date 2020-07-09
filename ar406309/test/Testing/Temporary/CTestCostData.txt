@@ -1,0 +1,5 @@
+test_defer 1 0.0168641
+test_await 1 0.00641608
+test_macierzy 1 0.192514
+test_silni 1 0.0123069
+---
